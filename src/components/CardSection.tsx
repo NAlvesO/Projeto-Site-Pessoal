@@ -4,7 +4,7 @@ interface SectionCardProps {
 
 export function SectionCard ({children}:SectionCardProps) {
     return (
-        <div className="bg-purple-700 h-screen">
+        <div className="bg-purple-700">
             {children}
         </div>
     )
