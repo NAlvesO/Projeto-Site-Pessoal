@@ -1,9 +1,11 @@
-import { Certificacao } from "./components/certificacao";
+import { Certificacao } from "./components/certificacao"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
-    <div>
-        <Certificacao />
-    </div>
+    <>  
+    <Certificacao />
+    <Footer/>
+    </>
   )
 }
