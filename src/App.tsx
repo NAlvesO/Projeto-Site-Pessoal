@@ -1,18 +1,17 @@
 import Banner from "./components/Banner"
-import { CardSection } from "./components/CardSection"
 import { Certificacao } from "./components/certificacao"
+import CursosEmAndamento from "./components/Main/CursosEmAndamento"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Card from "./components/Main"
+import Main from "./components/Main/Main"
 
 export default function App() {
   return (
     <>
       <Header />
       <Banner />
-      <CardSection>
-        <Card/>
-      </CardSection>
+      <Main/>
+      <CursosEmAndamento/>
       <Certificacao />
       <Footer />
     </>
